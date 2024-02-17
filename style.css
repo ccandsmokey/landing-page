@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 0 80px;
+    margin: 0;
+}
+
+ul, a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    font: #e5e7eb;
+    color: white;
+    gap: 15px;
+    font-weight: 300;
+    font-size: 15px;
+}
