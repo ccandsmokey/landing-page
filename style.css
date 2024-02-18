@@ -13,8 +13,9 @@ body {
     justify-content: space-between;
     align-items: center;
     font-family: sans-serif;
+    font-size: 25px;
     font-weight: 700;
-    padding: 0 80px;
+    padding: 0 200px;
     margin: 0;
 }
 
@@ -28,4 +29,91 @@ ul, a {
     gap: 15px;
     font-weight: 300;
     font-size: 16px;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color: #1F2937;
+
+}
+
+.website-awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    width: 450px;
+    margin-right: 25px;
+    color: white;
+
+}
+
+.wa-title {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+}
+
+.wa-p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.wa-button {
+    margin: 0;
+    background-color: #008CBA;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    appearance: button;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-shrink: 0;
+    font-family: "RM Neue",sans-serif;
+    line-height: 1.15;
+    text-align: center;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    touch-action: manipulation;
+    padding: 5px;
+}
+
+.wa-button:active {
+  background-color: #006AE8;
+}
+
+.wa-button:hover {
+  background-color: #1C84FF;
+}
+
+
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 550px;
+    height: 230px;
+    color: white;
+
+    
+
+}
+
+button {
+    width: 85px;
+    margin-bottom: 30px;
 }
