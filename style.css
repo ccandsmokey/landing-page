@@ -1,9 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    overflow: auto;
+    font-family: sans-serif;
     margin: 0;
-    overflow: hidden;
 }
 
 .header {
@@ -12,7 +12,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: sans-serif;
     font-size: 25px;
     font-weight: 700;
     padding: 0 200px;
@@ -116,4 +115,153 @@ ul, a {
 button {
     width: 85px;
     margin-bottom: 30px;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border-color: #006AE8;
+    border-width: .2cap;
+    margin: 0 25px;
+    margin-top: 40px;
+    
+
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+}
+.subtext {
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    width: 150px;
+    font-weight: 400;
+    color: grey;
+    margin: 0 25px;
+    padding: 2px;
+
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 80px 30px;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;;
+    font-size: 35px;
+    font-weight: 300;
+    padding: 0px 300px;
+    margin-bottom: 0;
+
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 300px;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.white-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+    height: 150px;
+    width: 1000px;
+    background-color: #2a87f8;
+    border-radius: 12px;
+    color: white;
+    /* padding: 20px 200px;
+    margin: 100px 20px; */
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.action-p {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sign-up-p {
+    padding: 0;
+    margin: 0;
+    color: rgb(211, 220, 228);
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    padding-top: 32px;
+}
+
+.sign-up-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a87f8;
+    color: white;
+    border: solid;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: 600;
+    width: 120px;
+    height: 35px;
+
+}
+
+footer {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(194, 197, 200);
+    background-color: #1F2937;
 }
